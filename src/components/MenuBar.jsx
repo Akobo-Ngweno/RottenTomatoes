@@ -2,16 +2,17 @@ import React from "react"
 export default function MenuBar(){
         return(
             <>
-            <button>search</button>
+            <img src="logo.png" alt="logo" />
+            <input type="text" placeholder="Search movies, TV, actors,more..." />
             <nav>
-                <div>
+                <div className="li_a">
                     <ul>
-                        <li>What's the Tomatometer {'\u00AE'} ?</li>
+                        <li>What's the Tomatometer{'\u00AE'}?</li>
                         <li>Critics</li>
                         <li>LOGIN /SIGNUP</li>
                     </ul>
                 </div>
-                <div>
+                <div className="li_b">
                     <ul>
                     <li>Movies</li>
                     <li>Tv Shows</li>
